@@ -49,3 +49,49 @@ function declarationAsVariable(inp) {
   const val = 3;
   return inp * val;
 }
+
+class Age {
+  name;
+  birthYear;
+  constructor(name, birthYear) {
+    this.name = name;
+    this.birthYear = birthYear;
+  }
+
+  currentYear() {
+    return new Date().getFullYear();
+  }
+
+  get age() {
+    return this.currentYear() - this.birthYear;
+  }
+}
+
+const me = new Age('Benny Harvey', 1988);
+//console.log(me.age);
+
+const age = {
+  name: 'Thomas',
+  yearOfBirth: 1988,
+  currentYear: 2021,
+  ageNow: function () {
+    return this.currentYear - this.yearOfBirth;
+  },
+};
+
+//console.log(age.ageNow());
+
+const sampleArr = [1, 2, 3];
+const emptyArr = [];
+
+const mapFunc = (arr) => {
+  if (Array.isArray(arr) && arr.length) {
+    return arr.map((x) => x + 1);
+  } else {
+    throw 'Array is empty';
+  }
+};
+
+console.log(mapFunc(true));
+
+console.log(mapFunc(emptyArr));
