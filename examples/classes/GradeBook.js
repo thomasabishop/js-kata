@@ -2,6 +2,7 @@ class GradeBook {
   constructor() {
     this.grades = [];
   }
+
   addGrade(int) {
     this.grades.push(int);
   }

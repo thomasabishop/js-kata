@@ -34,3 +34,24 @@ class Age {
 }
 
 const mary = new Age('Mary', 1959);
+
+/* Comparing object */
+// Everything we can do with a class, we can now do with an object:
+// get, set, methods without explicit keys etc
+const objectAge = {
+  name: 'Thomas',
+  yearOfBirth: 1988,
+  currentYear: function () {
+    return new Date().getFullYear();
+  },
+  currentYearClassStyle() {
+    return new Date().getFullYear();
+  },
+  get age() {
+    return this.currentYear() - this.yearOfBirth;
+  },
+};
+
+console.log(objectAge.currentYear());
+console.log(objectAge.currentYearClassStyle());
+console.log(objectAge.age);
