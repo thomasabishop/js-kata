@@ -1,5 +1,5 @@
-const fetch = require('node-fetch');
-const accessToken = '44f43b84f20f10834a01d568f6eea603d730f9c1';
+import { ghPersonalAccessToken as token } from './tokens.js';
+import fetch from 'node-fetch';
 
 /**
  * Retrieve specified resource
@@ -25,21 +25,18 @@ async function getGithubData(auth, resource) {
       throw new Error(`HTTP error. Status = ${response.status}`);
     } else {
       let data = await response.json();
-      console.log(data[2]);
+      return data;
+      //data.forEach((repo) => console.log(repo.id));
     }
   } catch (error) {
     console.error(error);
   }
 }
 
-//getGithubData(accessToken, 'location', true);
-//getGithubData(accessToken, 'public_repos');
-console.log(getGithubData(accessToken, 'repos'));
+function nextStage(asyncFunct) {
+  asyncFunct.then((data) => {
+    data.forEach((datum) => console.log(datum.name));
+  });
+}
 
-// How to distinguish properties that come of the endpoint, like location ?
-
-// function testDataHandling(...arr) {
-//   console.log(arr[0]);
-// }
-
-//testDataHandling(getGithubData(accessToken, 'repos'));
+nextStage(getGithubData(token, 'repos'));
