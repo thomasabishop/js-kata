@@ -38,7 +38,9 @@ async function getWakatimeData(endpoint) {
 
 //getWakatimeData();
 const allTime = new Request('all_time_since_today', 'All time since today');
-const dataDump = new Request('data_dumps', 'Data dump:');
+const languages = new Request('stats', 'Language count');
 
-console.log(allTime.retrieveData());
-console.log(dataDump.retrieveData());
+console.log(languages.retrieveData());
+//const dataDump = new Request('data_dumps', 'Data dump:');
+
+//console.log(dataDump.retrieveData());
