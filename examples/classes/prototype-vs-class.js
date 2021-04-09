@@ -16,6 +16,13 @@ function FindAge(name, birthYear) {
 const martha = new FindAge('Martha', 1997);
 const thomas = new FindAge('Thomas', 1988);
 
+// Add an additonal property to the constructor, available to all subsequent and preexisting instances of the Objects created from the constructor function:
+
+FindAge.prototype.surname = null;
+martha.surname = 'Cronin';
+
+console.log(martha);
+
 console.log(martha.isMillenial);
 
 /* Using class */
