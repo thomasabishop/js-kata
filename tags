@@ -1,0 +1,389 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+0	exercises/general/decode-message.js	/^  0,$/;"	V
+10	exercises/general/decode-message.js	/^  10,$/;"	V
+11	exercises/general/decode-message.js	/^  11,$/;"	V
+1208	exercises/general/decode-message.js	/^  1208,$/;"	V
+12312	exercises/general/decode-message.js	/^  12312,$/;"	V
+171	exercises/general/decode-message.js	/^  171,$/;"	V
+18	exercises/general/decode-message.js	/^  18,$/;"	V
+20620	exercises/general/decode-message.js	/^  20620,$/;"	V
+216	exercises/general/decode-message.js	/^  216,$/;"	V
+241	exercises/general/decode-message.js	/^  241,$/;"	V
+27	exercises/general/decode-message.js	/^  27,$/;"	V
+32	exercises/general/decode-message.js	/^  32,$/;"	V
+500	exercises/general/decode-message.js	/^  500,$/;"	V
+763	exercises/general/decode-message.js	/^  763,$/;"	V
+98423	exercises/general/decode-message.js	/^  98423,$/;"	V
+Age	examples/classes/Age.js	/^class Age {$/;"	C
+Age	examples/classes/inheritance.js	/^class Age {$/;"	C
+Age	examples/classes/prototype-vs-class.js	/^class Age {$/;"	C
+Age	examples/new-tricks.js	/^class Age {$/;"	C
+AgeChildClass	examples/classes/inheritance.js	/^class AgeChildClass extends Age {$/;"	C
+C	exercises/general/roman-numerals.js	/^  C: 100,$/;"	P
+D	exercises/general/roman-numerals.js	/^  D: 500,$/;"	P
+Dummy	examples/classes/Age.js	/^class Dummy {$/;"	C
+FindAge	examples/classes/prototype-vs-class.js	/^function FindAge(name, birthYear) {$/;"	F
+GradeBook	examples/classes/GradeBook.js	/^class GradeBook {$/;"	C
+GradeBook	examples/classes/access-modifiers.js	/^class GradeBook {$/;"	C
+I	exercises/general/roman-numerals.js	/^  I: 1,$/;"	P
+L	exercises/general/roman-numerals.js	/^  L: 50,$/;"	P
+M	exercises/general/roman-numerals.js	/^  M: 1000,$/;"	P
+ObserverA	design-patterns/observer-pattern.js	/^class ObserverA {$/;"	C
+ObserverB	design-patterns/observer-pattern.js	/^class ObserverB {$/;"	C
+PR_NOCODE	quick-experiments/api/out/scripts/prettify/prettify.js	/^PR_NOCODE:"nocode",PR_PLAIN:"pln",PR_PUNCTUATION:"pun",PR_SOURCE:"src",PR_STRING:"str",PR_TAG:"tag",PR_TYPE:"typ"}})();$/;"	P
+Request	quick-experiments/api/wakatime.js	/^class Request {$/;"	C
+Status	exercises/general/username_validation.js	/^Status: passed $/;"	P
+Subject	design-patterns/observer-pattern.js	/^class Subject {$/;"	C
+Tshirt	exercises/general/cash-register.js	/^  Tshirt: "25.01",$/;"	P
+V	exercises/general/roman-numerals.js	/^  V: 5,$/;"	P
+X	exercises/general/roman-numerals.js	/^  X: 10,$/;"	P
+a	examples/arraysToObject.js	/^let a = testObject.map((x) => x.image);$/;"	F
+a	examples/destructuredMap.js	/^    const [a, b, c] = element;$/;"	V
+aBook	examples/classes/GradeBook.js	/^const aBook = new GradeBook();$/;"	V
+abstractRetrieval	examples/promises.js	/^async function abstractRetrieval(resource, interfaceMethod) {$/;"	F
+action	exercises/general/decode-message.js	/^  action: function (int) {$/;"	M
+addGrade	examples/classes/GradeBook.js	/^  addGrade(int) {$/;"	M
+addGrade	examples/classes/access-modifiers.js	/^  addGrade(int) {$/;"	M
+addObserver	design-patterns/observer-pattern.js	/^  addObserver(...observer) {$/;"	M
+addTwo	examples/es6_arrows.js	/^const addTwo = x => x + 2;$/;"	F
+age	design-patterns/module-pattern.js	/^  get age() {}$/;"	M
+age	examples/classes/Age.js	/^  get age() {$/;"	M
+age	examples/classes/inheritance.js	/^  get age() {$/;"	M
+age	examples/classes/prototype-vs-class.js	/^  get age() {$/;"	M
+age	examples/classes/prototype-vs-class.js	/^  this.age = function () {$/;"	M
+age	examples/new-tricks.js	/^  get age() {$/;"	M
+age	examples/new-tricks.js	/^const age = {$/;"	O
+age	examples/objects/objectMethodsRevision.js	/^  age() {$/;"	M
+ageNow	examples/new-tricks.js	/^  ageNow: function () {$/;"	M
+allTime	quick-experiments/api/wakatime.js	/^const allTime = new Request('all_time_since_today', 'All time since today');$/;"	V
+alphabet	exercises/general/decode-message.js	/^let alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';$/;"	V
+anchorHash	quick-experiments/api/out/scripts/linenumber.js	/^    let anchorHash;$/;"	V
+annoyingStrings	examples/sorting-subobjects.js	/^let annoyingStrings = [$/;"	A
+anotherArr	quick-experiments/base64.js	/^let anotherArr = [6, 7, 9, 9, 7, 7].toString();$/;"	A
+apple	exercises/general/cash-register.js	/^  apple: "0.60",$/;"	P
+ar	examples/destructuredMap.js	/^const ar = ["2x2x2", "5x6x2"];$/;"	A
+arr	examples/regular-expressions.js	/^  arr$/;"	V
+arr	exercises/project_euler/06_sumSquareDiff.js	/^    const arr = [];$/;"	A
+arrayA	exercises/general/tuck-in-array.js	/^let arrayA = [15,150];$/;"	A
+arrayB	exercises/general/tuck-in-array.js	/^let arrayB = [45, 75, 35];$/;"	A
+arrayExtract	exercises/project_euler/08_largestProduct.js	/^  const arrayExtract = (array, index) => {$/;"	F
+arrayOne	examples/loopExperiments.js	/^let arrayOne = ['A', 'B', 'C', 'D'];$/;"	A
+arrayTwo	examples/loopExperiments.js	/^let arrayTwo = [1, 2, 3];$/;"	A
+average	examples/classes/GradeBook.js	/^    let average = 0;$/;"	V
+average	examples/classes/GradeBook.js	/^  get average() {$/;"	M
+average	examples/classes/access-modifiers.js	/^    let average = 0;$/;"	V
+average	examples/classes/access-modifiers.js	/^  get average() {$/;"	M
+axios	examples/promises-orig.js	/^  axios$/;"	V
+b	examples/destructuredMap.js	/^    const [a, b, c] = element;$/;"	V
+banana	exercises/general/cash-register.js	/^  banana: "1.25",$/;"	P
+banned	examples/regular-expressions.js	/^  const banned = \/(ab)|(cd)|(pq)|(xy)\/g;$/;"	V
+banned	examples/regular-expressions.js	/^const banned = [\/ab\/g, \/cd\/g, \/pq\/g, \/xy\/g];$/;"	A
+banned	examples/regular-expressions.js	/^const banned = \/(ab)|(cd)|(pq)|(xy)\/g;$/;"	V
+banned	exercises/advent_of_code/2015/05/partOne.js	/^  const banned = \/(ab)|(cd)|(pq)|(xy)\/g;$/;"	V
+basementVisits	exercises/advent_of_code/2015/01/solution.js	/^  const basementVisits = new Array();$/;"	V
+book	examples/classes/access-modifiers.js	/^const book = new GradeBook();$/;"	V
+c	examples/destructuredMap.js	/^    const [a, b, c] = element;$/;"	V
+calc	exercises/advent_of_code/2015/02/partTwo.js	/^  const calc = (arr) => {$/;"	F
+calculateArea	exercises/advent_of_code/2015/02/partOne.js	/^  const calculateArea = function (w, h, l) {$/;"	F
+calculateRibbonLength	exercises/advent_of_code/2015/02/oldSolution.js	/^  const calculateRibbonLength = function (w, h, l) {$/;"	F
+cartForParty	exercises/general/cash-register.js	/^var cartForParty = {  $/;"	O
+century	exercises/general/fizzbuzz.js	/^    const century = new Array;$/;"	V
+checkArr	exercises/general/tuck-in-array.js	/^    const checkArr = (arr) => Array.isArray(arr);$/;"	F
+checkAtypical	exercises/general/roman-numerals.js	/^  function checkAtypical(letter, subsequent) {$/;"	F
+checkFinalDigit	exercises/general/credit-card-validator.js	/^    checkFinalDigit: function(digit)$/;"	M
+checkLength	exercises/general/credit-card-validator.js	/^    checkLength: function(arr) $/;"	M
+checkMultiple	exercises/project_euler/01_multiples.js	/^const checkMultiple = (x) => (x % 3 === 0 || x % 5 === 0 ? x : null);$/;"	F
+checkNice	examples/regular-expressions.js	/^  const checkNice = (str) =>$/;"	F
+checkNice	exercises/advent_of_code/2015/05/partOne.js	/^  const checkNice = (str) =>$/;"	F
+chessboard	exercises/general/chessboard.js	/^function chessboard(totalRows)$/;"	F
+combined	examples/arraysToObject.js	/^const combined = {};$/;"	O
+combinedParse	examples/regular-expressions.js	/^function combinedParse(inp) {$/;"	F
+commitsBar	quick-experiments/randomLoops.js	/^const commitsBar = () => {$/;"	F
+commitsBarClosure	quick-experiments/randomLoops.js	/^export const commitsBarClosure = commitsBar();$/;"	E
+concise	examples/new-tricks.js	/^function concise() {$/;"	F
+concise2	examples/new-tricks.js	/^function concise2() {$/;"	F
+constructor	design-patterns/module-pattern.js	/^  constructor(name, birthYear) {$/;"	M
+constructor	examples/classes/Age.js	/^  constructor(name, birthYear) {$/;"	M
+constructor	examples/classes/GradeBook.js	/^  constructor() {$/;"	M
+constructor	examples/classes/inheritance.js	/^  constructor(name, birthYear) {$/;"	M
+constructor	examples/classes/inheritance.js	/^  constructor(name, birthYear, birthMonth) {$/;"	M
+constructor	examples/classes/prototype-vs-class.js	/^  constructor(name, birthYear) {$/;"	M
+constructor	examples/new-tricks.js	/^  constructor(name, birthYear) {$/;"	M
+constructor	exercises/project_euler/06_sumSquareDiff.js	/^  constructor(maximum) {$/;"	M
+constructor	quick-experiments/api/wakatime.js	/^  constructor(endpoint, dataDescription) {$/;"	M
+content	examples/promises.js	/^  let content;$/;"	V
+convertRoman	exercises/general/roman-numerals.js	/^function convertRoman(numeral) {$/;"	F
+copy	examples/loopExperiments.js	/^let copy = ['A', 'B', 'C', 'D'];$/;"	A
+count	exercises/general/roman-numerals.js	/^  const count = [];$/;"	A
+count	exercises/general/string_methods.js	/^    let count = new Array;$/;"	V
+countDown	exercises/project_euler/01_multiples.js	/^  countDown = function (x) {$/;"	M
+countEven	exercises/project_euler/02_fibonacci.js	/^  let countEven = 0;$/;"	V
+countMatches	examples/regular-expressions.js	/^  const countMatches = (str, regex) => {$/;"	F
+countMatches	examples/regular-expressions.js	/^const countMatches = (arr) =>$/;"	F
+countMatches	exercises/advent_of_code/2015/05/partOne.js	/^  const countMatches = (str, regex) => {$/;"	F
+countdown	examples/timeIntervals.js	/^function countdown() {$/;"	F
+currentMode	exercises/general/decode-message.js	/^  currentMode: uppercase,$/;"	P
+currentYear	design-patterns/module-pattern.js	/^  currentYear() {$/;"	M
+currentYear	examples/classes/Age.js	/^  currentYear() {$/;"	M
+currentYear	examples/classes/inheritance.js	/^  currentYear() {$/;"	M
+currentYear	examples/classes/prototype-vs-class.js	/^  currentYear() {$/;"	M
+currentYear	examples/classes/prototype-vs-class.js	/^  currentYear: function () {$/;"	M
+currentYear	examples/classes/prototype-vs-class.js	/^  this.currentYear = function () {$/;"	M
+currentYear	examples/new-tricks.js	/^  currentYear() {$/;"	M
+currentYear	examples/new-tricks.js	/^  currentYear: 2021,$/;"	P
+currentYear	examples/objects/objectMethodsRevision.js	/^  currentYear: 2021,$/;"	P
+currentYearClassStyle	examples/classes/prototype-vs-class.js	/^  currentYearClassStyle() {$/;"	M
+d	design-patterns/observer-pattern.js	/^    var d = new Date();$/;"	V
+data	exercises/advent_of_code/2015/01/solution.js	/^const data = () => {$/;"	F
+data	exercises/advent_of_code/2015/02/partOne.js	/^const data = () => {$/;"	F
+data	exercises/advent_of_code/2015/02/partOne.test.js	/^const data = () => {$/;"	F
+data	exercises/advent_of_code/2015/02/partTwo.js	/^const data = () => {$/;"	F
+data	exercises/advent_of_code/2015/02/partTwo.test.js	/^const data = () => {$/;"	F
+data	exercises/advent_of_code/2015/04/partOne.js	/^const data = "yzbqklnj";$/;"	V
+data	exercises/advent_of_code/2015/05/partOne.js	/^const data = () => {$/;"	F
+data	exercises/advent_of_code/2015/05/partOne.test.js	/^const data = () => {$/;"	F
+data	exercises/project_euler/06_sumSquareDiff.js	/^  data() {$/;"	M
+data	quick-experiments/randomLoops.js	/^  const data = [];$/;"	A
+declarationAsParameter	examples/new-tricks.js	/^function declarationAsParameter(inp, val = 3) {$/;"	F
+declarationAsVariable	examples/new-tricks.js	/^function declarationAsVariable(inp) {$/;"	F
+decode	exercises/general/decode-message.js	/^function decode(code) {$/;"	F
+destructureInLoopDemo	examples/destructuredMap.js	/^const destructureInLoopDemo = (arr) => {$/;"	F
+dimensions	exercises/advent_of_code/2015/02/oldSolution.js	/^  const dimensions = new Array();$/;"	V
+divFive	exercises/general/fizzbuzz.js	/^    const divFive = x => x % 5 == 0; $/;"	F
+divThree	exercises/general/fizzbuzz.js	/^    const divThree = x => x % 3 == 0;$/;"	F
+divisors	exercises/project_euler/05_smallest-multiple.js	/^  const divisors = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];$/;"	A
+divisors	exercises/project_euler/05_smallest-multiple.js	/^const divisors = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];$/;"	A
+dummer	examples/classes/Age.js	/^let dummer = new Dummy();$/;"	V
+echo	examples/timeIntervals.js	/^  const echo = () => console.log('phrase at interval');$/;"	F
+echo	examples/timeIntervals.js	/^  const echo = () => console.log('this is the phrase');$/;"	F
+echo	examples/timeIntervals.js	/^  const echo = (x) => console.log(x);$/;"	F
+else	exercises/general/fizzbuzz.js	/^    else$/;"	V
+emptyArr	examples/new-tricks.js	/^const emptyArr = [];$/;"	A
+encoding	exercises/advent_of_code/2015/01/solution.js	/^    encoding: "utf-8",$/;"	P
+eulerMultiples	exercises/project_euler/01_multiples.js	/^function eulerMultiples() {$/;"	F
+eulerMultiplesTwo	exercises/project_euler/01_multiples.js	/^function eulerMultiplesTwo(int) {$/;"	F
+example	examples/mapAndSet.js	/^const example = new Map();$/;"	V
+exports	jest.config.js	/^module.exports = {$/;"	P
+extract	examples/sorting-subobjects.js	/^const extract = (arr) => arr.map((x) => x.replace(\/#|\\[|\\]\/g, '').split(\/\\\/\/));$/;"	F
+extractLength	exercises/project_euler/08_largestProduct.js	/^  const extractLength = 13;$/;"	V
+fakeArr	exercises/general/tuck-in-array.js	/^const fakeArr = 'banana';$/;"	V
+fibonacci	exercises/project_euler/02_fibonacci.js	/^function fibonacci(start, maxLength, arr) {$/;"	F
+filterString	examples/regular-expressions.js	/^const filterString = (properties, inpString) =>$/;"	F
+finArr	exercises/general/basic.js	/^    let finArr = [];$/;"	A
+first	examples/arraysToObject.js	/^  first: "alpha",$/;"	P
+fizzbuzz	exercises/general/fizzbuzz.js	/^function fizzbuzz()$/;"	F
+flag	exercises/advent_of_code/2015/01/solution.js	/^    flag: "r",$/;"	P
+floor	exercises/advent_of_code/2015/01/solution.js	/^  const floor = new Array();$/;"	V
+fourth	examples/arraysToObject.js	/^  fourth: "delta",$/;"	P
+generateDescription	examples/classes/inheritance.js	/^  generateDescription() {$/;"	M
+generateWeekData	examples/random-int-generation.js	/^function generateWeekData(weeks) {$/;"	F
+getCurrentTime	design-patterns/observer-pattern.js	/^  getCurrentTime() {$/;"	M
+getGithubData	quick-experiments/api/github.js	/^async function getGithubData(auth, resource) {$/;"	F
+getUserLocation	examples/promises.js	/^async function getUserLocation() {$/;"	F
+getUserLocation	examples/promises.js	/^getUserLocation().catch(function (error) {$/;"	M
+getWakatimeData	quick-experiments/api/wakatime.js	/^async function getWakatimeData(endpoint) {$/;"	F
+githubUserLocation	examples/promises-orig.js	/^function githubUserLocation(username) {$/;"	F
+githubUserLocationAsync	examples/promises-orig.js	/^ githubUserLocationAsync("thomasabishop").then(function (data) {$/;"	M
+githubUserLocationAsync	examples/promises-orig.js	/^async function githubUserLocationAsync(username) {$/;"	F
+githubUserLocationTwo	examples/promises-orig.js	/^function githubUserLocationTwo(username) {$/;"	F
+handkerchief	exercises/general/cash-register.js	/^  handkerchief: ".99",$/;"	P
+handkerchief	exercises/general/cash-register.js	/^  handkerchief: "0.99",$/;"	P
+hash	exercises/general/triangle.js	/^let hash = '#';$/;"	V
+headers	quick-experiments/api/github.js	/^      headers: {$/;"	P
+headers	quick-experiments/api/wakatime.js	/^      headers: {$/;"	P
+hoursBar	quick-experiments/randomLoops.js	/^const hoursBar = () => {$/;"	F
+hoursBarClosure	quick-experiments/randomLoops.js	/^export const hoursBarClosure = hoursBar();$/;"	E
+https	exercises/general/basic.js	/^https:\/\/hackernoon.com\/javascript-practical-coding-challenges-for-beginners-4bq3ugr$/;"	P
+i	exercises/advent_of_code/2015/04/partOne.js	/^    let i = 0;$/;"	V
+i	exercises/general/basic.js	/^    var i = 10;$/;"	V
+i	exercises/general/roman-numerals.js	/^  let i = 0;$/;"	V
+i	exercises/project_euler/02_fibonacci.js	/^  let i = 0;$/;"	V
+i	exercises/project_euler/02_fibonacci.js	/^var i = 1;$/;"	V
+i	exercises/project_euler/04_palindromes.js	/^  let i = 99;$/;"	V
+i	quick-experiments/api/out/scripts/linenumber.js	/^    let i = 0;$/;"	V
+idChars	exercises/general/string_methods.js	/^function idChars(input, target)$/;"	F
+idLowestInt	exercises/general/minmax.js	/^const idLowestInt = (...ints) =>  Math.min(...ints);$/;"	F
+image	examples/arraysToObject.js	/^    image: "octocat",$/;"	P
+image	examples/arraysToObject.js	/^    image: "sqn",$/;"	P
+input	exercises/general/decode-message.js	/^const input = [$/;"	A
+input	exercises/general/string_methods.js	/^const input = 'fantastica';$/;"	V
+intervalExample	examples/timeIntervals.js	/^function intervalExample() {$/;"	F
+intervalExampleArgs	examples/timeIntervals.js	/^function intervalExampleArgs(phrase) {$/;"	F
+ints	exercises/advent_of_code/2015/02/oldSolution.js	/^  const ints = (str) => str.split('x');$/;"	F
+isPalindrome	exercises/project_euler/04_palindromes.js	/^  const isPalindrome = (int) =>$/;"	F
+languages	quick-experiments/api/wakatime.js	/^const languages = new Request('stats', 'Language count');$/;"	V
+largeData	examples/promises.js	/^async function largeData() {$/;"	F
+largestPalindrome	exercises/project_euler/04_palindromes.js	/^function largestPalindrome() {$/;"	F
+largestProduct	exercises/project_euler/08_largestProduct.js	/^function largestProduct(input) {$/;"	F
+letters	exercises/general/decode-message.js	/^const letters = new Map();$/;"	V
+library	exercises/general/decode-message.js	/^  library: letters,$/;"	P
+library	exercises/general/decode-message.js	/^  library: punctuationStore,$/;"	P
+lineId	quick-experiments/api/out/scripts/linenumber.js	/^    let lineId;$/;"	V
+lineNumber	quick-experiments/api/out/scripts/linenumber.js	/^    let lineNumber = 0;$/;"	V
+lines	quick-experiments/api/out/scripts/linenumber.js	/^    let lines;$/;"	V
+list1	exercises/general/merge-lists.js	/^const list1 = [1, 2, 4];$/;"	A
+list2	exercises/general/merge-lists.js	/^const list2 = [1, 3, 4];$/;"	A
+locateHash	exercises/advent_of_code/2015/04/partOne.js	/^  const locateHash = function (zeroTarget) {$/;"	F
+longWinded	examples/new-tricks.js	/^function longWinded() {$/;"	F
+lowercase	exercises/general/decode-message.js	/^const lowercase = {$/;"	O
+mapFunc	examples/new-tricks.js	/^const mapFunc = (arr) => {$/;"	F
+martha	examples/classes/prototype-vs-class.js	/^const martha = new FindAge('Martha', 1997);$/;"	V
+mary	examples/classes/Age.js	/^const mary = new Age('Mary', 1959);$/;"	V
+mary	examples/classes/inheritance.js	/^const mary = new Age('Mary', 1959);$/;"	V
+mary	examples/classes/prototype-vs-class.js	/^const mary = new Age('Mary', 1959);$/;"	V
+match	design-patterns/observer-pattern.js	/^    const match = this.observers.findIndex((element) => element === observer);$/;"	F
+matchStore	exercises/advent_of_code/2017/2017_01_A.js	/^  var matchStore = new Array();$/;"	V
+matchStore	exercises/advent_of_code/2017/2017_01_B.js	/^  var matchStore = new Array();$/;"	V
+mattie	examples/classes/inheritance.js	/^const mattie = new AgeChildClass('Mattie', 1997, 'Feb');$/;"	V
+me	examples/new-tricks.js	/^const me = new Age('Benny Harvey', 1988);$/;"	V
+mergeLists	exercises/general/merge-lists.js	/^function mergeLists(firstList, secondList) {$/;"	F
+mode	exercises/general/decode-message.js	/^const mode = {$/;"	O
+multTables	exercises/general/basic.js	/^function multTables()$/;"	F
+nalgene	exercises/general/cash-register.js	/^  nalgene: "10.34",$/;"	P
+names	examples/es6_for-of-loops.js	/^const names = ['Thomas', 'Martha', 'Carrie'];$/;"	A
+net	exercises/general/basic.js	/^var net = [];$/;"	A
+newline	exercises/general/chessboard.js	/^    const newline = "\\n";$/;"	V
+nextStage	quick-experiments/api/github.js	/^function nextStage(asyncFunct) {$/;"	F
+notify	design-patterns/observer-pattern.js	/^  notify() {$/;"	M
+numsToSum	examples/es6_for-of-loops.js	/^const numsToSum = [5, 5, 5];$/;"	A
+objarr	examples/sorting-subobjects.js	/^let objarr = [$/;"	A
+objectAge	examples/classes/prototype-vs-class.js	/^const objectAge = {$/;"	O
+obsAInstance	design-patterns/observer-pattern.js	/^let obsAInstance = new ObserverA();$/;"	V
+obsBInstance	design-patterns/observer-pattern.js	/^let obsBInstance = new ObserverB();$/;"	V
+oddSum	exercises/general/basic.js	/^function oddSum(){$/;"	F
+outputPositive	exercises/general/basic.js	/^function outputPositive(arr)$/;"	F
+overlap	exercises/advent_of_code/2015/05/partTwo.js	/^  const overlap = \/([a-zA-Z])\\1\/;$/;"	V
+parseStringArr	examples/regular-expressions.js	/^function parseStringArr(arr) {$/;"	F
+partOne	exercises/advent_of_code/2015/01/solution.js	/^function partOne() {$/;"	F
+partOne	exercises/advent_of_code/2015/02/partOne.js	/^export function partOne(input)$/;"	E
+partOne	exercises/advent_of_code/2015/04/partOne.js	/^function partOne(input) {$/;"	F
+partOne	exercises/advent_of_code/2015/05/partOne.js	/^export function partOne(arr) {$/;"	E
+partTwo	exercises/advent_of_code/2015/02/partTwo.js	/^export function partTwo(input) {$/;"	E
+pass	exercises/project_euler/05_smallest-multiple.js	/^  const pass = divisors.filter((divisor) => integer % divisor === 0);$/;"	F
+path	quick-experiments/api/github.js	/^  let path;$/;"	V
+payload	exercises/general/decode-message.js	/^  payload: function (i) {$/;"	M
+phraseBook	exercises/general/translator.js	/^var phraseBook = {$/;"	O
+positiveInts	exercises/general/basic.js	/^    let positiveInts = [];$/;"	A
+precision	quick-experiments/randomLoops.js	/^  let precision = 100;$/;"	V
+prime	exercises/project_euler/03_prime-factorisation.js	/^function prime(int) {$/;"	F
+printNames	examples/es6_arrows.js	/^const printNames = (...names) => console.log(...names);$/;"	F
+printOdd	exercises/general/basic.js	/^function printOdd()$/;"	F
+program	exercises/project_euler/05_smallest-multiple.js	/^function program(x) {$/;"	F
+proteinShake	exercises/general/cash-register.js	/^  proteinShake: "22.36"$/;"	P
+punctuation	exercises/general/decode-message.js	/^const punctuation = {$/;"	O
+punctuationStore	exercises/general/decode-message.js	/^const punctuationStore = new Map([$/;"	V
+queryResponse	examples/promises.js	/^async function queryResponse() {$/;"	F
+randomDecimal	quick-experiments/randomLoops.js	/^var randomDecimal = () => {$/;"	F
+recurse	exercises/project_euler/01_multiples.js	/^recurse = function (x) {$/;"	M
+recurse	exercises/project_euler/05_smallest-multiple.js	/^function recurse(integer) {$/;"	F
+regex	examples/regular-expressions.js	/^const regex = \/\\d+\/g;$/;"	V
+regex	examples/regular-expressions.js	/^const regex = new RegExp("y");$/;"	V
+regex	exercises/general/strip-regex.js	/^const regex = \/\\.\\d*\/gi;$/;"	V
+regex	exercises/general/username_validation.js	/^  const regex = \/^[a-zA-Z][\\w|_]+[^_]$\/;$/;"	V
+removeObserver	design-patterns/observer-pattern.js	/^  removeObserver(observer) {$/;"	M
+repeatA	exercises/advent_of_code/2015/05/partTwo.js	/^const repeatA = (str) => {$/;"	F
+repeatB	exercises/advent_of_code/2015/05/partTwo.js	/^const repeatB = (str) => {$/;"	F
+repeats	examples/regular-expressions.js	/^  const repeats = (str) => {$/;"	F
+repeats	exercises/advent_of_code/2015/05/partOne.js	/^  const repeats = (str) => {$/;"	F
+repeats	exercises/advent_of_code/2015/05/partTwo.js	/^const repeats = (str) => {$/;"	F
+result	examples/destructuredMap.js	/^  const result = [];$/;"	A
+result	exercises/advent_of_code/2015/04/partOne.js	/^    let result;$/;"	V
+retrieveData	quick-experiments/api/wakatime.js	/^  retrieveData() {$/;"	M
+retrieveName	examples/objects/objectMethodsRevision.js	/^function retrieveName() {$/;"	F
+rgx	exercises/project_euler/04_palindromes.js	/^  const rgx = new RegExp('\\\\[|\\\\,|\\\\]|\\\\"', 'g');$/;"	V
+roman	exercises/general/roman-numerals.js	/^const roman = {$/;"	O
+rootEndpoint	quick-experiments/api/github.js	/^  const rootEndpoint = 'https:\/\/api.github.com';$/;"	V
+rowTypeOne	exercises/general/chessboard.js	/^    const rowTypeOne = " # # # #";$/;"	V
+rowTypeTwo	exercises/general/chessboard.js	/^    const rowTypeTwo = "# # # # ";$/;"	V
+runAsync	exercises/project_euler/05_smallest-multiple.js	/^const runAsync = new Promise(function (resolve, reject) {$/;"	V
+runProgram	exercises/project_euler/05_smallest-multiple.js	/^function runProgram() {$/;"	F
+sampleArr	examples/new-tricks.js	/^const sampleArr = [1, 2, 3];$/;"	A
+sayHello	examples/es6_arrows.js	/^const sayHello = () => console.log('hello?');$/;"	F
+sayHello	examples/es6_arrows.js	/^var sayHello = function () {$/;"	F
+sayHello	exercises/general/fizzbuzz.js	/^function sayHello()$/;"	F
+saySomething	exercises/general/fizzbuzz.js	/^function saySomething(speech, val)$/;"	F
+second	examples/arraysToObject.js	/^  second: "beta",$/;"	P
+shiftMode	exercises/general/decode-message.js	/^  shiftMode: function () {$/;"	M
+sort	examples/sorting-subobjects.js	/^const sort = (arr) => arr.sort((a, b) => a.id - b.id);$/;"	F
+sorted	exercises/advent_of_code/2015/02/partTwo.js	/^    let sorted = arr.sort((a, b) => a - b);$/;"	F
+split	examples/destructuredMap.js	/^const split = ar.map((ele) => ele.split("x"));$/;"	F
+split	examples/regular-expressions.js	/^const split = (str) => str.split("");$/;"	F
+square	examples/classes/Age.js	/^  get square() {$/;"	M
+square	examples/es6_arrows.js	/^const square = x => x * 2;$/;"	F
+square	exercises/project_euler/06_sumSquareDiff.js	/^  square(x) {$/;"	M
+squareSumDifference	exercises/project_euler/06_sumSquareDiff.js	/^class squareSumDifference {$/;"	C
+src	examples/promises.js	/^  const src = 'https:\/\/api.github.com\/users\/thomasabishop';$/;"	V
+store	examples/new-tricks.js	/^  const store = [];$/;"	A
+store	examples/new-tricks.js	/^  let store = 0;$/;"	V
+store	exercises/general/decode-message.js	/^  const store = [];$/;"	A
+store	exercises/project_euler/01_multiples.js	/^  const store = [];$/;"	A
+store	exercises/project_euler/01_multiples.js	/^  let store = 0;$/;"	V
+store	exercises/project_euler/01_multiples.js	/^let store = 0;$/;"	V
+store	exercises/project_euler/04_palindromes.js	/^  let store = [];$/;"	A
+store	exercises/project_euler/05_smallest-multiple.js	/^  var store = [];$/;"	A
+store	exercises/project_euler/06_sumSquareDiff.js	/^    const store = [];$/;"	A
+store	exercises/project_euler/08_largestProduct.js	/^  const store = [];$/;"	A
+str	examples/regular-expressions.js	/^const str = "Today is Monday";$/;"	V
+str	examples/regular-expressions.js	/^const str = "aaiiab";$/;"	V
+str	examples/regular-expressions.js	/^const str = 'the time is near';$/;"	V
+strTwo	examples/regular-expressions.js	/^const strTwo = "efsfcdweffdxysdffpq";$/;"	V
+strip	exercises/general/strip-regex.js	/^const strip = (str) => {$/;"	F
+subStore	exercises/project_euler/08_largestProduct.js	/^    let subStore = [];$/;"	A
+subjectInstance	design-patterns/observer-pattern.js	/^let subjectInstance = new Subject();$/;"	V
+sum	exercises/project_euler/01_multiples.js	/^  let sum = 0;$/;"	V
+sum	exercises/project_euler/05_smallest-multiple.js	/^  const sum = (arr) => arr.reduce((a, b) => a + b);$/;"	F
+sumAndSquare	examples/es6_arrows.js	/^const sumAndSquare = (x, y) => { $/;"	F
+sumArr	exercises/general/basic.js	/^function sumArr(accumulator, x)$/;"	F
+sumDigits	exercises/general/basic.js	/^function sumDigits(int)$/;"	F
+sumInts	exercises/advent_of_code/2015/02/oldSolution.js	/^  const sumInts = (x, y) => x + y;$/;"	F
+sumNumbers	examples/es6_arrows.js	/^const sumNumbers = (x, y) =>  x + y;$/;"	F
+target	exercises/general/basic.js	/^var target = [5, 0, 10, 56, -3, 7, 10, -5 ];$/;"	A
+test	examples/destructuredMap.js	/^  const test = ar.map((x) => (let[(a, b, c)] = x));$/;"	F
+test	examples/sorting-subobjects.js	/^let test = annoyingStrings.map((x) => x.split(\/\\\/\/));$/;"	F
+test	exercises/project_euler/06_sumSquareDiff.js	/^const test = new squareSumDifference(10);$/;"	V
+testEnvironment	jest.config.js	/^  testEnvironment: "node",$/;"	P
+testInput	exercises/advent_of_code/2015/03/solution.js	/^  const testInput = "^^<<v<<v><v";$/;"	V
+testOne	exercises/advent_of_code/2015/05/partTwo.js	/^const testOne = "qjhvhtzxzqqjkmpb";$/;"	V
+testRawArr	quick-experiments/base64.js	/^let testRawArr = [7, 6, 8, 8, 9, 10].toString();$/;"	A
+testTwo	exercises/advent_of_code/2015/05/partTwo.js	/^const testTwo = "aaa";$/;"	V
+testZeroes	exercises/advent_of_code/2015/04/partOne.js	/^  const testZeroes = function (hash, zeroTarget) {$/;"	F
+textNumbersChars	examples/regular-expressions.js	/^const textNumbersChars = '128AEc01Jc';$/;"	V
+third	examples/arraysToObject.js	/^  third: "gamma",$/;"	P
+thomas	examples/classes/prototype-vs-class.js	/^const thomas = new FindAge('Thomas', 1988);$/;"	V
+thomas	examples/objects/objectMethodsRevision.js	/^const thomas = {$/;"	O
+tick	examples/timeIntervals.js	/^  const tick = () =>$/;"	F
+timeoutExample	examples/timeIntervals.js	/^function timeoutExample() {$/;"	F
+timeoutExampleArgs	examples/timeIntervals.js	/^function timeoutExampleArgs(phrase) {$/;"	F
+title	examples/arraysToObject.js	/^    title: "Code Stats",$/;"	P
+title	examples/arraysToObject.js	/^    title: "Sine Qua Non",$/;"	P
+title	examples/arraysToObject.js	/^    title: "Thomas's React Learning Lab",$/;"	P
+title	examples/arraysToObject.js	/^    title: "thomas-bishop.co.uk",$/;"	P
+token	quick-experiments/api/github.js	/^import { ghPersonalAccessToken as token } from '.\/tokens.js';$/;"	I
+total	examples/es6_for-of-loops.js	/^    let total = 0;$/;"	V
+totalLines	quick-experiments/api/out/scripts/linenumber.js	/^    let totalLines;$/;"	V
+totalRibbon	exercises/advent_of_code/2015/02/oldSolution.js	/^  const totalRibbon = new Array();$/;"	V
+translate	exercises/general/translator.js	/^function translate(lang)$/;"	F
+tuck	exercises/general/tuck-in-array.js	/^function tuck(arr1, arr2)$/;"	F
+two	exercises/general/string_methods.js	/^var two = 'two';$/;"	V
+two	exercises/general/string_methods.js	/^var two = 2;$/;"	V
+update	design-patterns/observer-pattern.js	/^  update(newState) {$/;"	M
+uppercase	exercises/general/decode-message.js	/^const uppercase = {$/;"	O
+val	examples/new-tricks.js	/^  const val = 3;$/;"	V
+validateCard	exercises/general/credit-card-validator.js	/^function validateCard(cardNumber)$/;"	F
+validateUsername	exercises/general/username_validation.js	/^function validateUsername(str) {$/;"	F
+vowels	examples/regular-expressions.js	/^  const vowels = \/[aeiou]\/g;$/;"	V
+vowels	examples/regular-expressions.js	/^const vowels = [\/a\/g, \/e\/g, \/i\/g, \/o\/g, \/u\/g];$/;"	A
+vowels	examples/regular-expressions.js	/^const vowels = \/[aeiou]\/g;$/;"	V
+vowels	exercises/advent_of_code/2015/05/partOne.js	/^  const vowels = \/[aeiou]\/g;$/;"	V
+wakaToken	quick-experiments/api/wakatime.js	/^import { wakatimeToken as wakaToken } from '.\/tokens.js';$/;"	I
+week	examples/random-int-generation.js	/^  const week = [];$/;"	A
+wrap	exercises/advent_of_code/2015/02/oldSolution.js	/^    let wrap = 2 * (w + h);$/;"	V
+x	exercises/advent_of_code/2015/03/solution.js	/^  var x = 0,$/;"	V
+yearOfBirth	examples/classes/prototype-vs-class.js	/^  yearOfBirth: 1988,$/;"	P
+yearOfBirth	examples/new-tricks.js	/^  yearOfBirth: 1988,$/;"	P
+yearOfBirth	examples/objects/objectMethodsRevision.js	/^  yearOfBirth: 1988,$/;"	P
