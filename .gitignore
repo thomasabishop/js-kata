@@ -5,3 +5,4 @@ node_modules
 quick-experiments/api/out/
 quick-experiments/api/tokens.js
 tags
+./api/cred.js
