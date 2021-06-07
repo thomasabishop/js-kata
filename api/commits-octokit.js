@@ -1,5 +1,5 @@
 import { Octokit } from 'octokit';
-import { ghToken } from './cred.js';
+import { ghToken } from './credentials.js';
 import { createHashMap, isoFormatToDateOnly } from './wakatime.js';
 const octokit = new Octokit({ auth: ghToken });
 
@@ -26,7 +26,7 @@ async function getAllRepos() {
 }
 
 async function getCommitsForMonth() {
-  const monthCommits = createHashMap();
+  const monthCommits = createHashMap(30);
   const firstDate = monthCommits.keys().next().value;
   let repoList = await getAllRepos();
   for (let repo of repoList) {
@@ -37,7 +37,14 @@ async function getCommitsForMonth() {
       }
     }
   }
+
   console.log(monthCommits);
+  const commitsArray = [];
+  let iterator = monthCommits.values();
+  for (let item of iterator) {
+    commitsArray.push(item.commitCount);
+  }
+  console.log(commitsArray);
 }
 
 getCommitsForMonth();

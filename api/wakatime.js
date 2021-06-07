@@ -1,6 +1,6 @@
 import fetch from 'node-fetch';
 import btoa from 'btoa';
-import { waka } from './cred.js';
+import { waka } from './credentials.js';
 export async function getWakatimeData(endpoint) {
   const rootEndpoint = `https://wakatime.com/api/v1/users/current/${endpoint}`;
   try {
@@ -32,6 +32,7 @@ function convertToDecimalTime(hours, minutes) {
 function hoursCoding() {
   getWakatimeData('summaries?range=last_30_days').then(function (info) {
     let allInfo = info.data;
+    console.log(allInfo.is_up_to_date);
     let decimalHours = allInfo
       .map((x) => [x.grand_total.hours, x.grand_total.minutes])
       .map((x) => convertToDecimalTime(...x));
@@ -40,12 +41,12 @@ function hoursCoding() {
 }
 
 //hoursCoding();
+
 // Get language : percent : time
 function languagePercents() {
   getWakatimeData('stats/last_30_days').then(function (info) {
     let allInfo = info.data;
-    console.log(allInfo);
-    let langs = allInfo.languages.map((x) => [x.name, x.percent, x.text]);
+    let langs = allInfo.languages.map((x) => [x.name, x.percent]);
     // Remove Sketch data
     for (let i = 0; i < langs.length; i++) {
       if (langs[i][0] === 'Sketch Drawing') {
@@ -81,3 +82,5 @@ export function createHashMap() {
   }
   return monthHashmap;
 }
+
+//console.log(createHashMap().size);

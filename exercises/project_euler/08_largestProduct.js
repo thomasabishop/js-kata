@@ -11,12 +11,14 @@ function largestProduct(input) {
   const store = [];
   const arrayExtract = (array, index) => {
     let subStore = [];
+
     for (let i = 0; i < extractLength; i++) {
       subStore.push(Number(array[index + i]));
     }
     return subStore.reduce((accum, currentVal) => accum * currentVal);
   };
   const arr = input.split('');
+
   for (let iterator = 0; iterator <= arr.length; iterator++) {
     let elementsRemaining = arr.length - iterator;
     elementsRemaining >= extractLength &&
