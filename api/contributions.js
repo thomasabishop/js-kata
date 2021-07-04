@@ -1,6 +1,6 @@
 import { Octokit } from "octokit"
 import { ghToken } from "./credentials.js"
-
+import frequencyCounter from "./frequencyCounter.js"
 const octokit = new Octokit({ auth: ghToken })
 
 async function contributions() {
@@ -12,10 +12,13 @@ async function contributions() {
 //contributions()
 
 async function userEvents() {
-  let url = "GET /users/thomasabishop/events?per_page=100"
+  let url = "GET /users/sdras/events?per_page=100"
   let response = await octokit.request(url)
   const store = []
   response = response.data
+  console.log(response)
+
+  console.log(response.length)
   response.forEach((contribution) => {
     store.push({
       repository: contribution.repo.url,
@@ -23,7 +26,28 @@ async function userEvents() {
       //commits: contribution.payload.commits,
     })
   })
-  console.log(store)
-  console.log(store.length)
+  console.log(frequencyCounter)
+  // console.log(store)
+  // console.log(store.length)
 }
-userEvents()
+//userEvents()
+
+async function checkUser() {
+  let url = "GET /users/thomasabishop"
+  let c = await octokit.request(url)
+  console.log(c.data.login)
+}
+//checkUser()
+
+async function eventFrequencies() {
+  let url = "GET /users/thomasabishop/events?per_page=100"
+  let response = await octokit.request(url)
+  response = response.data
+  frequencyCounter.totalContributions = response.length
+  for (const entry of response) {
+    frequencyCounter[entry.type] = (frequencyCounter[entry.type] || 0) + 1
+  }
+  console.log(frequencyCounter)
+}
+
+eventFrequencies()
