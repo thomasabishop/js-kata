@@ -45,7 +45,7 @@ async function checkUser() {
 }
 //checkUser()
 
-async function geteventFrequencies() {
+async function getEventFrequencies() {
   let url = 'GET /users/sdras/events?per_page=100';
   let response = await octokit.request(url);
   response = response.data;
@@ -53,8 +53,8 @@ async function geteventFrequencies() {
   for (const entry of response) {
     frequencyCounter[entry.type] = (frequencyCounter[entry.type] || 0) + 1;
   }
-  //console.log(frequencyCounter);
-  return frequencyCounter;
+  console.log(frequencyCounter);
+  //return frequencyCounter;
 }
 
-eventFrequencies();
+getEventFrequencies();
